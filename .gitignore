@@ -1,3 +1,15 @@
-./deploys
-./git 
-/artifacts
+# Ignore Remix IDE specific folders
+.deploys/
+.deps/
+
+# Ignore Git folder
+.git/
+
+# Optionally, ignore other common files/folders
+node_modules/
+build/
+*.log
+
+# Ignore Solidity compiler output
+*.abi
+*.bin
