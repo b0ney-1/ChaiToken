@@ -1,7 +1,10 @@
 # Ignore Remix IDE specific folders
 .deploys/
 .deps/
+artifacts/
 
+# More specific ignores based on the structure you're seeing
+.deploys/pinned-contracts
 # Ignore Git folder
 .git/
 
